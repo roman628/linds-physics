@@ -4,235 +4,242 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHYS 140 Final Exam Study Guide</title>
+    
+    <!-- GitHub Markdown CSS (Dark Theme) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.0/github-markdown-dark.min.css">
+    
+    <!-- KaTeX for math rendering -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+    
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            background-color: #0d1117;
+            margin: 0;
             padding: 20px;
+            color: #c9d1d9;
         }
         
         .container {
-            max-width: 900px;
+            max-width: 980px;
             margin: 0 auto;
-            background: white;
-            padding: 40px;
-            border-radius: 15px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            background-color: #0d1117;
+            padding: 45px;
         }
         
-        #content h1 {
-            color: #667eea;
-            font-size: 2.5em;
-            margin-bottom: 10px;
-            border-bottom: 4px solid #667eea;
-            padding-bottom: 15px;
+        .markdown-body {
+            box-sizing: border-box;
+            min-width: 200px;
+            max-width: 980px;
+            margin: 0 auto;
+            padding: 45px;
+            background-color: #0d1117;
+            border-radius: 6px;
         }
         
-        #content h2 {
-            color: #764ba2;
-            font-size: 1.8em;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            padding-left: 15px;
-            border-left: 5px solid #764ba2;
-        }
-        
-        #content h3 {
-            color: #555;
-            font-size: 1.4em;
-            margin-top: 25px;
-            margin-bottom: 10px;
-        }
-        
-        #content p {
-            margin-bottom: 15px;
-            text-align: justify;
-        }
-        
-        #content ul, #content ol {
-            margin-left: 30px;
-            margin-bottom: 15px;
-        }
-        
-        #content li {
-            margin-bottom: 8px;
-        }
-        
-        #content code {
-            background: #f4f4f4;
-            padding: 2px 6px;
-            border-radius: 3px;
-            font-family: 'Courier New', monospace;
-            font-size: 0.9em;
-        }
-        
-        #content pre {
-            background: #2d2d2d;
-            color: #f8f8f2;
-            padding: 20px;
-            border-radius: 8px;
-            overflow-x: auto;
-            margin: 20px 0;
-            font-family: 'Courier New', monospace;
-            line-height: 1.5;
-        }
-        
-        #content pre code {
-            background: none;
-            color: inherit;
-            padding: 0;
-        }
-        
-        #content strong {
-            color: #667eea;
-            font-weight: 600;
-        }
-        
-        #content em {
-            color: #764ba2;
-            font-style: italic;
-        }
-        
-        #content hr {
-            border: none;
-            border-top: 2px solid #e0e0e0;
-            margin: 30px 0;
-        }
-        
-        #content blockquote {
-            border-left: 4px solid #667eea;
-            padding-left: 20px;
-            margin: 20px 0;
-            color: #666;
-            font-style: italic;
-        }
-        
-        #content table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 20px 0;
-        }
-        
-        #content th, #content td {
-            border: 1px solid #ddd;
-            padding: 12px;
-            text-align: left;
-        }
-        
-        #content th {
-            background-color: #667eea;
-            color: white;
-            font-weight: 600;
-        }
-        
-        #content tr:nth-child(even) {
-            background-color: #f9f9f9;
+        @media (max-width: 767px) {
+            .markdown-body {
+                padding: 15px;
+            }
         }
 
         .loading {
             text-align: center;
-            padding: 40px;
-            color: #667eea;
-            font-size: 1.2em;
+            padding: 60px;
+            color: #58a6ff;
+            font-size: 1.5em;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        .loading::after {
+            content: '...';
+            animation: dots 1.5s steps(4, end) infinite;
+        }
+
+        @keyframes dots {
+            0%, 20% { content: '.'; }
+            40% { content: '..'; }
+            60%, 100% { content: '...'; }
         }
 
         .error {
-            background: #f8d7da;
-            border-left: 4px solid #dc3545;
-            padding: 20px;
+            background: #1f1f1f;
+            border-left: 5px solid #f85149;
+            padding: 25px;
             margin: 20px 0;
-            border-radius: 5px;
-            color: #721c24;
+            border-radius: 8px;
+            color: #f85149;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
         }
-        
-        @media print {
-            body {
-                background: white;
-                padding: 0;
-            }
-            
-            .container {
-                box-shadow: none;
-                padding: 20px;
-            }
-            
-            #content h1, #content h2, #content h3 {
-                page-break-after: avoid;
-            }
-            
-            #content pre {
-                page-break-inside: avoid;
-            }
+
+        .error h2 {
+            color: #f85149;
+            margin-bottom: 15px;
         }
-        
-        @media (max-width: 768px) {
-            body {
-                padding: 10px;
-            }
-            
-            .container {
-                padding: 20px;
-            }
-            
-            #content h1 {
-                font-size: 2em;
-            }
-            
-            #content h2 {
-                font-size: 1.5em;
-            }
+
+        .error code {
+            background: #161b22;
+            padding: 3px 6px;
+            border-radius: 3px;
+            color: #ff7b72;
+        }
+
+        /* Scroll to top button */
+        #scrollTop {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background: #238636;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            padding: 12px 16px;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 8px 24px rgba(35, 134, 54, 0.4);
+            display: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
+            font-weight: 500;
+        }
+
+        #scrollTop:hover {
+            background: #2ea043;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(35, 134, 54, 0.6);
+        }
+
+        #scrollTop.show {
+            display: block;
+        }
+
+        /* Custom overrides for better readability */
+        .markdown-body h1 {
+            border-bottom: 2px solid #21262d;
+            padding-bottom: 0.3em;
+        }
+
+        .markdown-body h2 {
+            border-bottom: 1px solid #21262d;
+            padding-bottom: 0.3em;
+        }
+
+        /* Syntax highlighting for inline code */
+        .markdown-body code {
+            background-color: rgba(110, 118, 129, 0.4);
+        }
+
+        /* Better table styling */
+        .markdown-body table tr {
+            background-color: #0d1117;
+            border-top: 1px solid #21262d;
+        }
+
+        .markdown-body table tr:nth-child(2n) {
+            background-color: #161b22;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="content" class="loading">
-            Loading study guide...
-        </div>
+        <article id="content" class="markdown-body loading">
+            Loading study guide
+        </article>
     </div>
 
-    <!-- Using marked.js for markdown rendering -->
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <button id="scrollTop" title="Scroll to top">↑ Top</button>
+
+    <!-- Marked.js for markdown parsing -->
+    <script src="https://cdn.jsdelivr.net/npm/marked@11.0.0/marked.min.js"></script>
+    
+    <!-- KaTeX for math rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
     
     <script>
-        // Configure marked options
+        // Configure marked with GitHub Flavored Markdown
         marked.setOptions({
-            breaks: true,
             gfm: true,
+            breaks: true,
             headerIds: true,
-            mangle: false
+            mangle: false,
+            pedantic: false,
+            smartLists: true,
+            smartypants: false
         });
+
+        // Custom renderer to handle task lists
+        const renderer = new marked.Renderer();
+        const originalListItem = renderer.listitem.bind(renderer);
+        
+        renderer.listitem = function(text) {
+            // Handle task list items
+            if (/^\[[ xX]\] /.test(text)) {
+                const checked = /^\[[xX]\] /.test(text);
+                text = text.replace(/^\[[ xX]\] /, '');
+                return `<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" ${checked ? 'checked' : ''} disabled> ${text}</li>`;
+            }
+            return originalListItem(text);
+        };
+
+        marked.setOptions({ renderer });
+
+        // Function to render math expressions
+        function renderMath(element) {
+            renderMathInElement(element, {
+                delimiters: [
+                    {left: '$$', right: '$$', display: true},
+                    {left: '$', right: '$', display: false},
+                    {left: '\\[', right: '\\]', display: true},
+                    {left: '\\(', right: '\\)', display: false}
+                ],
+                throwOnError: false,
+                trust: true
+            });
+        }
 
         // Fetch and render the markdown file
         async function loadMarkdown() {
             const contentDiv = document.getElementById('content');
             
             try {
-                // Try to load phys140_final_study_guide.md first, then fallback to README.md
-                let response = await fetch('README.md');
-                
-                if (!response.ok) {
-                    response = await fetch('README.md');
+                // Try multiple file names
+                const filenames = ['README.md', 'phys140_final_study_guide.md'];
+                let markdownText = null;
+                let loadedFile = null;
+
+                for (const filename of filenames) {
+                    try {
+                        const response = await fetch(filename);
+                        if (response.ok) {
+                            markdownText = await response.text();
+                            loadedFile = filename;
+                            console.log(`Successfully loaded: ${loadedFile}`);
+                            break;
+                        }
+                    } catch (e) {
+                        console.log(`Could not load ${filename}:`, e);
+                    }
                 }
                 
-                if (!response.ok) {
+                if (!markdownText) {
                     throw new Error('Could not load markdown file');
                 }
                 
-                const markdown = await response.text();
-                const html = marked.parse(markdown);
+                // Remove BOM if present
+                if (markdownText.charCodeAt(0) === 0xFEFF) {
+                    markdownText = markdownText.slice(1);
+                }
+                
+                // Parse markdown to HTML
+                const html = marked.parse(markdownText);
                 contentDiv.innerHTML = html;
+                contentDiv.classList.remove('loading');
+                
+                // Render math equations
+                renderMath(contentDiv);
                 
                 // Add smooth scrolling to anchor links
-                document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                document.querySelectorAll('.markdown-body a[href^="#"]').forEach(anchor => {
                     anchor.addEventListener('click', function (e) {
                         e.preventDefault();
                         const target = document.querySelector(this.getAttribute('href'));
@@ -241,26 +248,49 @@
                         }
                     });
                 });
+
+                // Scroll to top button functionality
+                const scrollTopBtn = document.getElementById('scrollTop');
+                
+                window.addEventListener('scroll', () => {
+                    if (window.pageYOffset > 300) {
+                        scrollTopBtn.classList.add('show');
+                    } else {
+                        scrollTopBtn.classList.remove('show');
+                    }
+                });
+
+                scrollTopBtn.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
                 
             } catch (error) {
+                console.error('Error loading markdown:', error);
+                contentDiv.classList.remove('loading');
                 contentDiv.innerHTML = `
                     <div class="error">
-                        <h2>⚠️ Error Loading Study Guide</h2>
-                        <p>Could not load the markdown file. Please make sure one of these files is in the same directory as index.html:</p>
+                        <h2>⚠️ Could Not Load Study Guide</h2>
+                        <p><strong>For local viewing:</strong> Browsers block loading local files due to CORS security. Use one of these methods:</p>
+                        <ol>
+                            <li><strong>GitHub Pages (Recommended):</strong> Upload both <code>index.html</code> and <code>README.md</code> to GitHub, enable Pages</li>
+                            <li><strong>VS Code Live Server:</strong> Install "Live Server" extension, right-click <code>index.html</code> → "Open with Live Server"</li>
+                            <li><strong>Python Server:</strong> Run <code>python -m http.server 8000</code> in the folder</li>
+                            <li><strong>Node.js:</strong> Run <code>npx http-server</code> in the folder</li>
+                        </ol>
+                        <hr style="margin: 20px 0; border-color: #21262d;">
+                        <p><strong>Required files in same directory:</strong></p>
                         <ul>
-                            <li><code>phys140_final_study_guide.md</code></li>
-                            <li><code>README.md</code></li>
+                            <li><code>index.html</code> (this file)</li>
+                            <li><code>README.md</code> or <code>phys140_final_study_guide.md</code></li>
                         </ul>
-                        <p><strong>Error details:</strong> ${error.message}</p>
-                        <hr>
-                        <p><strong>Note for GitHub Pages:</strong> Make sure to commit and push the markdown file to your repository.</p>
+                        <p style="margin-top: 20px;"><strong>Error:</strong> <code>${error.message}</code></p>
                     </div>
                 `;
             }
         }
 
-        // Load the markdown when page loads
-        loadMarkdown();
+        // Load markdown when page loads
+        window.addEventListener('DOMContentLoaded', loadMarkdown);
     </script>
 </body>
 </html>
