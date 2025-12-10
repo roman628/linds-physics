@@ -1,462 +1,308 @@
 # PHYS 140 Final Exam - Practice Test
 
-**Format:** 6-7 questions, 2 hours | **Goal:** Practice writing for partial credit
+**Format:** 7 questions, 2 hours | **Goal:** Practice writing for partial credit
 
 ---
 
 ## Question 1: Projectile Motion [25 pts]
 
-A soccer ball is kicked from ground level at an angle of 30° with an initial speed of 25 m/s.
+A soccer ball is kicked from ground level at 30° with initial speed 25 m/s.
 
-**(a)** What are the x and y components of the initial velocity? **[5 pts]**
-
-**(b)** What is the maximum height the ball reaches? **[8 pts]**
-
-**(c)** How long is the ball in the air? **[7 pts]**
-
-**(d)** How far does the ball travel horizontally? **[5 pts]**
+**(a)** Find x and y components of initial velocity. **[5 pts]**
+**(b)** Find maximum height. **[8 pts]**
+**(c)** Find time in air. **[7 pts]**
+**(d)** Find horizontal range. **[5 pts]**
 
 ### Solution:
 
-**(a) Components [5 pts]**
-
-**What to write for credit:**
+**(a) [5 pts]**
 ```
 Given: v₀ = 25 m/s, θ = 30°
-
-v₀ₓ = v₀ cos(θ) = 25 cos(30°) = 21.7 m/s
-v₀ᵧ = v₀ sin(θ) = 25 sin(30°) = 12.5 m/s
+v₀ₓ = v₀cos(θ) = 25cos(30°) = 21.7 m/s
+v₀ᵧ = v₀sin(θ) = 25sin(30°) = 12.5 m/s
 ```
+**Partial credit:** Diagram + formulas = 2 pts
 
-**Partial credit:** Drawing diagram + writing cos/sin formulas = 2-3 pts
-
----
-
-**(b) Maximum height [8 pts]**
-
-**What to write for credit:**
+**(b) [8 pts]**
 ```
-At max height: vᵧ = 0
-
-Using: vᵧ² = v₀ᵧ² - 2g(y - y₀)
-0 = (12.5)² - 2(9.8)(y - 0)
-y = 12.5²/(2×9.8) = 156.25/19.6 = 7.97 m
+At peak: vᵧ = 0
+vᵧ² = v₀ᵧ² - 2g(y - y₀)
+0 = (12.5)² - 2(9.8)y
+y = 156.25/19.6 = 7.97 m
 ```
+**Key:** State vᵧ=0 (1pt) | Equation (3pts) | Solve (3pts) | Units (1pt)
 
-**Key for partial credit:**
-- State vᵧ = 0 at peak (1 pt)
-- Write correct equation (2 pts)
-- Plug in numbers with units (2 pts)
-
----
-
-**(c) Time in air [7 pts]**
-
-**What to write for credit:**
+**(c) [7 pts]**
 ```
-Using: y = y₀ + v₀ᵧt - ½gt²
-When lands: y = 0
-
-0 = 0 + 12.5t - ½(9.8)t²
-4.9t² - 12.5t = 0
-t(4.9t - 12.5) = 0
-t = 0 or t = 12.5/4.9 = 2.55 s
-
-Answer: t = 2.55 s
+y = y₀ + v₀ᵧt - ½gt²
+0 = 0 + 12.5t - 4.9t²
+t(12.5 - 4.9t) = 0
+t = 12.5/4.9 = 2.55 s
 ```
+**Key:** Setup y=0 (3pts) | Algebra (2pts) | Answer (2pts)
 
-**Partial credit:** Setup equation with y = 0 (3 pts) | Show algebra (2 pts)
-
----
-
-**(d) Horizontal range [5 pts]**
-
-**What to write for credit:**
+**(d) [5 pts]**
 ```
-x = v₀ₓt = 21.7 × 2.55 = 55.3 m
+x = v₀ₓt = 21.7(2.55) = 55.3 m
 ```
-
-**Partial credit:** Write x = v₀ₓt formula (2 pts)
+**Key:** Formula (2pts) | Calculation (2pts) | Units (1pt)
 
 ---
 
 ## Question 2: Forces on Incline [25 pts]
 
-A 2.7 kg box sits on a 34° incline. The coefficient of kinetic friction is μₖ = 0.15.
+A 2.7 kg box on 34° incline with μₖ = 0.15.
 
-**(a)** Draw free body diagrams for the box. **[6 pts]**
-
-**(b)** If the box slides down, find its acceleration. **[10 pts]**
-
-**(c)** What minimum μₛ would keep the box from sliding? **[9 pts]**
+**(a)** Draw free body diagram. **[6 pts]**
+**(b)** Find acceleration if sliding down. **[10 pts]**
+**(c)** Find minimum μₛ to prevent sliding. **[9 pts]**
 
 ### Solution:
 
-**(a) Free body diagram [6 pts]**
-
-**What to draw for full credit:**
+**(a) [6 pts]**
 ```
-[Draw box on incline]
-Forces:
-- Weight mg pointing straight down
-- Normal N perpendicular to surface
-- Friction f parallel to surface (up the incline)
+Draw:
+- Box on incline
+- Weight mg (straight down)
+- Normal N (perpendicular to surface)
+- Friction f (up the incline)
 
-Break mg into components:
-- mg sin(θ) parallel to incline (down)
-- mg cos(θ) perpendicular to incline
+Components:
+- mg sin(34°) parallel to incline
+- mg cos(34°) perpendicular to incline
 ```
+**Key:** All forces labeled (4pts) | Components shown (2pts)
 
-**Partial credit:** Even rough diagram with labeled forces = 4 pts
-
----
-
-**(b) Acceleration [10 pts]**
-
-**What to write for credit:**
+**(b) [10 pts]**
 ```
-Perpendicular: N - mg cos(θ) = 0
-                N = mg cos(θ) = 2.7(9.8)cos(34°) = 21.9 N
+Perpendicular: N = mg cos(34°)
+                N = 2.7(9.8)(0.829) = 21.9 N
 
-Parallel: mg sin(θ) - fₖ = ma
-          mg sin(θ) - μₖN = ma
-          2.7(9.8)sin(34°) - 0.15(21.9) = 2.7a
+Parallel: mg sin(34°) - fₖ = ma
+          mg sin(34°) - μₖN = ma
+          2.7(9.8)(0.559) - 0.15(21.9) = 2.7a
           14.8 - 3.29 = 2.7a
-          a = 11.5/2.7 = 4.26 m/s²
+          a = 4.26 m/s²
 ```
+**Key:** N equation (2pts) | Parallel equation (3pts) | Substitute fₖ (2pts) | Solve (3pts)
 
-**Key for partial credit:**
-- Write N = mg cos(θ) (2 pts)
-- Write parallel equation (3 pts)
-- Substitute fₖ = μₖN (2 pts)
-
----
-
-**(c) Minimum μₛ [9 pts]**
-
-**What to write for credit:**
+**(c) [9 pts]**
 ```
 For no sliding: a = 0
-mg sin(θ) - fₛ = 0
-mg sin(θ) = μₛN = μₛmg cos(θ)
-
-μₛ = sin(θ)/cos(θ) = tan(θ)
-μₛ = tan(34°) = 0.67
+mg sin(θ) = fₛ,max = μₛN = μₛmg cos(θ)
+μₛ = sin(θ)/cos(θ) = tan(34°) = 0.67
 ```
-
-**Partial credit:** State a = 0 (2 pts) | Setup equation (3 pts)
+**Key:** State a=0 (2pts) | Setup (4pts) | Simplify (3pts)
 
 ---
 
 ## Question 3: Energy Conservation [25 pts]
 
-A 100 kg roller coaster starts from rest at height h₁ = 45 m, drops to h₂ = 0 m, then climbs to h₃ = 25 m where it stops. Friction acts between h₂ and h₃ (distance = 25 m).
+A 100 kg roller coaster starts at rest at h₁=45m, drops to h₂=0m, climbs to h₃=25m and stops. Friction acts from h₂ to h₃ over 25m distance.
 
-**(a)** Find gravitational PE at h₁. **[5 pts]**
-
+**(a)** Find PE at h₁. **[5 pts]**
 **(b)** Find speed at h₂. **[8 pts]**
-
 **(c)** Find energy lost to friction. **[12 pts]**
 
 ### Solution:
 
-**(a) PE at h₁ [5 pts]**
-
-**What to write for credit:**
+**(a) [5 pts]**
 ```
-PE = mgh₁ = 100 × 9.8 × 45 = 44,100 J
+PE = mgh₁ = 100(9.8)(45) = 44,100 J
 ```
+**Key:** Formula (2pts) | Calculate (2pts) | Units (1pt)
 
-**Partial credit:** Write PE = mgh (2 pts)
-
----
-
-**(b) Speed at h₂ [8 pts]**
-
-**What to write for credit:**
+**(b) [8 pts]**
 ```
-Energy conservation (no friction A→B):
-PE₁ + KE₁ = PE₂ + KE₂
+Conservation (A→B frictionless):
 mgh₁ + 0 = 0 + ½mv²
-
-v = √(2gh₁) = √(2 × 9.8 × 45)
-v = √882 = 29.7 m/s
+gh₁ = ½v²
+v = √(2gh₁) = √(2×9.8×45) = 29.7 m/s
 ```
+**Key:** Conservation equation (3pts) | Cancel m (1pt) | Solve (3pts) | Units (1pt)
 
-**Key for partial credit:**
-- Write conservation equation (3 pts)
-- Cancel mass (1 pt)
-- Setup for v (2 pts)
-
----
-
-**(c) Energy lost [12 pts]**
-
-**What to write for credit:**
+**(c) [12 pts]**
 ```
-Energy at B: KE₂ = ½mv² = ½(100)(29.7)² = 44,100 J
-Energy at C: PE₃ = mgh₃ = 100(9.8)(25) = 24,500 J
-
-Energy lost = KE₂ - PE₃ 
-            = 44,100 - 24,500 = 19,600 J
+Energy at B: KE = ½(100)(29.7)² = 44,100 J
+Energy at C: PE = 100(9.8)(25) = 24,500 J
+Energy lost = 44,100 - 24,500 = 19,600 J
 ```
-
-**Partial credit:** State Elost = Einitial - Efinal (4 pts)
+**Key:** Calculate both energies (4pts each) | Subtract (4pts)
 
 ---
 
 ## Question 4: Circular Motion [25 pts]
 
-A 1000 kg car rounds a flat curve of radius 50 m at 15 m/s.
+A 1000 kg car rounds flat curve, radius 50m, speed 15 m/s.
 
-**(a)** What centripetal force is needed? **[8 pts]**
-
-**(b)** If μₛ = 0.60, will the car make the turn? **[10 pts]**
-
-**(c)** What's the maximum safe speed? **[7 pts]**
+**(a)** Find required centripetal force. **[8 pts]**
+**(b)** If μₛ=0.60, will car make turn? **[10 pts]**
+**(c)** Find maximum safe speed. **[7 pts]**
 
 ### Solution:
 
-**(a) Centripetal force [8 pts]**
-
-**What to write for credit:**
+**(a) [8 pts]**
 ```
-Fc = mv²/R = 1000(15)²/50
-   = 1000(225)/50 = 4500 N
+Fc = mv²/R = 1000(15)²/50 = 4500 N
 ```
+**Key:** Formula (3pts) | Calculate (4pts) | Units (1pt)
 
-**Partial credit:** Write Fc = mv²/R (3 pts)
-
----
-
-**(b) Will it make turn? [10 pts]**
-
-**What to write for credit:**
+**(b) [10 pts]**
 ```
-Maximum friction: fₘₐₓ = μₛN = μₛmg
-                       = 0.60(1000)(9.8) = 5880 N
+Friction provides Fc:
+fmax = μₛN = μₛmg = 0.60(1000)(9.8) = 5880 N
 
-Since fₘₐₓ (5880 N) > Fc (4500 N):
+Since fmax (5880N) > Fc (4500N):
 YES, car will make the turn
 ```
+**Key:** State friction=Fc (2pts) | Calculate fmax (3pts) | Compare (3pts) | Conclude (2pts)
 
-**Key for partial credit:**
-- State friction provides Fc (2 pts)
-- Calculate fₘₐₓ = μₛmg (3 pts)
-- Compare values (2 pts)
-
----
-
-**(c) Maximum speed [7 pts]**
-
-**What to write for credit:**
+**(c) [7 pts]**
 ```
-At max speed: fₘₐₓ = mv²/R
-μₛmg = mv²/R
-v = √(μₛgR) = √(0.60 × 9.8 × 50)
-v = √294 = 17.1 m/s
+At max: μₛmg = mv²/R
+v = √(μₛgR) = √(0.60×9.8×50) = 17.1 m/s
 ```
-
-**Partial credit:** Setup equation μₛmg = mv²/R (4 pts)
+**Key:** Setup equation (4pts) | Solve (2pts) | Units (1pt)
 
 ---
 
 ## Question 5: Momentum & Collision [25 pts]
 
-A 0.15 kg hockey puck moving at 35 m/s is caught by a 70 kg goalie at rest.
+A 0.15 kg hockey puck at 35 m/s is caught by 70 kg goalie at rest.
 
-**(a)** Find the goalie's recoil velocity. **[12 pts]**
-
-**(b)** How much KE is lost? **[13 pts]**
+**(a)** Find goalie's recoil velocity. **[12 pts]**
+**(b)** Find kinetic energy lost. **[13 pts]**
 
 ### Solution:
 
-**(a) Recoil velocity [12 pts]**
-
-**What to write for credit:**
+**(a) [12 pts]**
 ```
-Conservation of momentum:
-p_before = p_after
-m_puck × v_puck + m_goalie × 0 = (m_puck + m_goalie) × v_final
-
-0.15(35) + 0 = (0.15 + 70)v'
+Momentum conservation (inelastic):
+mpvp + 0 = (mp + mg)v'
+0.15(35) = (0.15 + 70)v'
 5.25 = 70.15v'
-v' = 5.25/70.15 = 0.075 m/s
+v' = 0.075 m/s
 ```
+**Key:** Diagram (2pts) | State conservation (2pts) | Write equation (4pts) | Solve (3pts) | State "inelastic" (1pt)
 
-**Key for partial credit:**
-- Draw before/after diagram (2 pts)
-- State momentum conservation (3 pts)
-- Write equation (3 pts)
-- State "inelastic collision" (1 pt)
-
----
-
-**(b) Energy lost [13 pts]**
-
-**What to write for credit:**
+**(b) [13 pts]**
 ```
-KE_before = ½m_puck v² = ½(0.15)(35)² = 91.875 J
-
-KE_after = ½(m_puck + m_goalie)v'²
-         = ½(70.15)(0.075)² = 0.197 J
-
-ΔKE = 91.875 - 0.197 = 91.68 J lost
+KEᵢ = ½(0.15)(35)² = 91.88 J
+KEf = ½(70.15)(0.075)² = 0.20 J
+ΔKE = 91.88 - 0.20 = 91.68 J lost
 ```
-
-**Partial credit:** Calculate both KE values (5 pts each)
+**Key:** Initial KE (5pts) | Final KE (5pts) | Subtract (3pts)
 
 ---
 
 ## Question 6: Work & Friction [25 pts]
 
-A car's engine shuts off at 15 m/s. It slows to 10 m/s after traveling distance d. The friction coefficient is μₖ = 0.3.
+A 1200 kg car's engine shuts off at 15 m/s. It slows to 10 m/s over distance d. Friction μₖ=0.3.
 
-**(a)** Find the deceleration due to friction. **[8 pts]**
-
-**(b)** Find the stopping distance d. **[10 pts]**
-
-**(c)** Calculate work done by friction. **[7 pts]**
+**(a)** Find deceleration. **[8 pts]**
+**(b)** Find distance d. **[10 pts]**
+**(c)** Find work done by friction. **[7 pts]**
 
 ### Solution:
 
-**(a) Deceleration [8 pts]**
-
-**What to write for credit:**
+**(a) [8 pts]**
 ```
-Friction force: f = μₖmg
-Newton's 2nd: f = ma
-μₖmg = ma
+f = μₖmg
+F = ma → μₖmg = ma
 a = μₖg = 0.3(9.8) = 2.94 m/s²
-
-(negative since it opposes motion)
-a = -2.94 m/s²
+Direction: a = -2.94 m/s² (opposes motion)
 ```
+**Key:** Write f=μₖmg (2pts) | a=μₖg (3pts) | Calculate (2pts) | Sign (1pt)
 
-**Partial credit:** Write f = μₖmg (2 pts) | State a = μₖg (3 pts)
-
----
-
-**(b) Distance d [10 pts]**
-
-**What to write for credit:**
+**(b) [10 pts]**
 ```
-Using: v² = v₀² + 2ad
+v² = v₀² + 2ad
 (10)² = (15)² + 2(-2.94)d
 100 = 225 - 5.88d
-5.88d = 125
-d = 21.3 m
+d = 125/5.88 = 21.3 m
 ```
+**Key:** Correct equation (4pts) | Setup (3pts) | Solve (3pts)
 
-**Partial credit:** Write correct kinematic equation (4 pts)
-
----
-
-**(c) Work by friction [7 pts]**
-
-**What to write for credit:**
+**(c) [7 pts]**
 ```
-W = -f × d = -μₖmg × d
-(negative because friction opposes motion)
+W = -fd = -μₖmgd
+W = -0.3(1200)(9.8)(21.3)
+W = -75,254 J
 
-Or using energy:
-W = ΔKE = ½m(v² - v₀²) = ½m(100 - 225)
-W = -62.5m (depends on mass, which wasn't given)
+Or: W = ΔKE = ½m(v² - v₀²)
+W = ½(1200)(100 - 225) = -75,000 J
 ```
-
-**Partial credit:** Write W = fd or W = ΔKE (3 pts)
+**Key:** Formula (3pts) | Calculate (3pts) | Units (1pt)
 
 ---
 
 ## Question 7: Statics & Torque [25 pts]
 
-A uniform 50 kg beam (length 4 m) is supported at its left end. A 30 kg box sits 3 m from the left end.
+A uniform 4m beam (50 kg) is supported at both ends. A 30 kg box sits 3m from left end.
 
-**(a)** Draw diagram showing all forces. **[5 pts]**
-
-**(b)** Find the support force at left end. **[12 pts]**
-
-**(c)** Where should a 20 kg box be placed to balance? **[8 pts]**
+**(a)** Draw force diagram. **[5 pts]**
+**(b)** Find force at left support. **[12 pts]**
+**(c)** Find force at right support. **[8 pts]**
 
 ### Solution:
 
-**(a) Diagram [5 pts]**
-
-**What to draw for credit:**
+**(a) [5 pts]**
 ```
-[Draw horizontal beam]
-- Support force F_support at left (up)
-- Weight of beam: 50g at center (2 m from left)
-- Weight of box: 30g at 3 m from left
+Draw horizontal beam:
+- Force FL at left end (up)
+- Weight 50g at center (2m from left, down)
+- Weight 30g at 3m from left (down)
+- Force FR at right end (up)
 ```
+**Key:** All forces labeled (3pts) | Distances marked (2pts)
 
-**Partial credit:** Label pivot and forces (3 pts)
-
----
-
-**(b) Support force [12 pts]**
-
-**What to write for credit:**
+**(b) [12 pts]**
 ```
-Torque about left end (pivot):
+Torque about RIGHT end (pivot at right):
 Counter-clockwise = Clockwise
-
-0 = (50g)(2) + (30g)(3)
-(Note: support force creates no torque at pivot)
-
-Wait - this doesn't balance! Need reaction at right end too.
-Actually, this is a simple support problem:
-
-ΣF_y = 0:
-F_support - 50g - 30g = 0
-F_support = 80g = 80(9.8) = 784 N
+FL(4) = 50g(2) + 30g(1)
+FL(4) = 50(9.8)(2) + 30(9.8)(1)
+FL(4) = 980 + 294 = 1274
+FL = 318.5 N
 ```
+**Key:** Choose pivot (2pts) | Write torque equation (4pts) | Distances correct (2pts) | Solve (4pts)
 
-**Partial credit:** Write ΣF = 0 (4 pts) | Setup equation (4 pts)
+**(c) [8 pts]**
+```
+ΣFy = 0:
+FL + FR = 50g + 30g
+318.5 + FR = 50(9.8) + 30(9.8)
+318.5 + FR = 784
+FR = 465.5 N
+
+Check: 318.5 + 465.5 = 784 ✓
+```
+**Key:** Write ΣF=0 (2pts) | Setup (3pts) | Solve (2pts) | Check (1pt)
 
 ---
 
-**(c) Balancing position [8 pts]**
+## Test Day Essentials
 
-**What to write for credit:**
-```
-Need more info about pivot location or additional support.
-If balanced on pivot at some point x:
-Torques must balance about pivot point.
+**Always write for every problem:**
+1. Diagram (rough is fine)
+2. Given values with units
+3. Equation before plugging numbers
+4. All algebra steps
+5. Units on final answer
 
-For seesaw at center (2 m):
-Left side: 50g(0) + weight at distance d_left
-Right side: 30g(1)
+**Guaranteed partial credit:**
+- Free body diagrams with labeled forces
+- Conservation laws stated
+- Correct equations (even wrong numbers)
+- Breaking vectors into components
+- Key facts (v=0 at peak, p conserved, etc.)
 
-Show setup even if can't complete!
-```
+**Time strategy:**
+- 15-20 min/question
+- Easy parts first
+- Return to hard parts
+- 10 min review at end
 
-**Partial credit:** State Στ = 0 (3 pts) | Attempt setup (3 pts)
-
----
-
-## Key Takeaways for Test Day
-
-**Always write:**
-1. **Diagram** (even rough) - shows you understand
-2. **Given values** with units
-3. **Relevant equation** - gets partial credit
-4. **Setup before numbers** - shows process
-5. **Units on answer** - easy points
-
-**Partial credit gold:**
-- Free body diagrams
-- Conservation statements
-- Identifying forces/components
-- Writing equations (even if wrong numbers)
-- Stating key facts (v=0 at peak, momentum conserved, etc.)
-
-**Time management:**
-- 15-20 min per question
-- Do easiest parts first
-- Circle back to hard parts
-- Check units on everything
-
----
+**Remember:** You need ~30 points to pass. Partial credit adds up fast!
 
 Good luck! 🎯
