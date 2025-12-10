@@ -1,721 +1,462 @@
-# PHYS 140 Final Exam - Survival Study Guide
-## Strategic Approa_rh to Getting Partial Credit
+# PHYS 140 Final Exam - Practice Test
+
+**Format:** 6-7 questions, 2 hours | **Goal:** Practice writing for partial credit
 
 ---
 
-## 📊 YOUR CURRENT SITUATION
+## Question 1: Projectile Motion [25 pts]
 
-**Current Grade (without final): 52.98%**
-- Homework: 93.38% (18.68/20 pts)
-- Reading Quizzes: 100% (5/5 pts)  
-- In-class: 50% (5/10 pts)
-- Tests: 60.75% (24.30/40 pts)
+A soccer ball is kicked from ground level at an angle of 30° with an initial speed of 25 m/s.
 
-**🎯 WHAT YOU NEED:**
-- **To pass with D (60%)**: Score **28.1%** on final (28/100 points)
-- **To get D+ (65%)**: Score **48.1%** on final (48/100 points)
-- **If you score 40%**: Final grade = 62.98% (D)
-- **If you score 50%**: Final grade = 65.48% (D+)
+**(a)** What are the x and y components of the initial velocity? **[5 pts]**
 
-**THE STRATEGY**: You don✅t need to know everything perfectly. Focus on writing SOMETHING for every question to maximize partial credit.
+**(b)** What is the maximum height the ball reaches? **[8 pts]**
 
----
+**(c)** How long is the ball in the air? **[7 pts]**
 
-## 🔑 KEY EXAM INFORMATION
+**(d)** How far does the ball travel horizontally? **[5 pts]**
 
-**When**: Wednesday, December 10, 2025, 1:00 PM - 3:00 PM  
-**Where**: King Hall 136  
-**Format**: 6-7 multi-part questions (like Tests 1-3 but longer)  
-**Coverage**: Comprehensive - all topics from entire semester
+### Solution:
 
-**What to Bring**:
-- Scientific calculator (required)
-- Pencils/pens
-- Your student ID
+**(a) Components [5 pts]**
 
-**What NOT to Bring**:
-- Phones, iPads, laptops
-- Notes or formula sheets (one will be provided)
-
----
-
-## 📝 PARTIAL CREDIT STRATEGY
-
-### Golden Rules for Partial Credit:
-
-1. **ALWAYS draw diagrams** - Even a rough sketch gets points
-2. **Write the formula** - Even if you can✅t solve it, write relevant equations
-3. **Label everything** - Forces, angles, distances, velocities
-4. **Include units** - Points are specifically given for correct units
-5. **Show setup** - Write √knowns√ and √unknowns√ 
-6. **State direction** - For vectors, always mention direction (+ or -)
-
-### What Gets You Points (Based on Your Past Tests):
-
-✅ Drawing free body diagrams (even if incomplete)  
-✅ Writing correct kinematic equations  
-✅ Identifying force components  
-✅ Showing algebraic setup before numbers  
-✅ Including correct units on all values  
-✅ Writing conservation laws (energy, momentum)  
-✅ Stating assumptions clearly
-
-### What Loses Points:
-
-❌ No work shown at all  
-❌ Missing units or wrong units  
-❌ Sign errors (not indicating direction)  
-❌ Wrong algebra without showing steps  
-❌ Blank answers (NEVER leave blank!)
-
----
-
-## 📚 TOPIC BREAKDOWN & MINIMAL KNOWLEDGE NEEDED
-
-### **Topic 1: 1D Kinematics (Motion in a Straight Line)**
-
-**Core Equations** (These MUST be memorized):
-```
-v = v₀ + at
-x = x₀ + v₀t + ½at²
-v² = v₀² + 2a(x - x₀)
-```
-
-**Minimum to Write Down**:
-1. Draw a simple motion diagram (arrow showing direction)
-2. List knowns: v₀ = ___, v = ___, a = ___, t = ___, x = ___
-3. Pick the equation with the right variables
-4. Plug in numbers WITH UNITS
-5. Remember: **a = -9.8 m/s²** for falling objects (gravity)
-
-**Example Strategy** (From Class 02 & 07):
-*√A ball is dropped from height 50m. How long to hit ground?√*
-
-Write this:
-- Known: y₀ = 50m, v₀ = 0 (dropped means no initial speed!), a = -9.8 m/s², y = 0
-- Unknown: t = ?
-- Equation: y = y₀ + v₀t + ½at²
-- 0 = 50 + 0 + ½(-9.8)t²
-- Solve for t
-
-**Easy Points**:
-- State √up is positive, down is negative√ or vice versa
-- At highest point, v = 0 (always true!)
-- Sign of velocity changes at peak
-
----
-
-### **Topic 2: 2D Kinematics & Projectile Motion**
-
-**Core Concepts**:
-- Horizontal (x) and vertical (y) motions are INDEPENDENT
-- Horizontal velocity is constant: vₓ = v₀ₓ (no a_rceleration)
-- Vertical has gravity: aᵧ = -9.8 m/s²
-
-**Essential Equations**:
-```
-v₀ₓ = v₀ cos(θ)
-v₀ᵧ = v₀ sin(θ)
-
-x = v₀ₓt
-y = y₀ + v₀ᵧt - ½gt²
-```
-
-**Minimum to Write Down**:
-1. **ALWAYS draw a diagram** showing trajectory and angle
-2. Break velocity into components using cos/sin
-3. Write separate equations for x and y
-4. Remember: at max height, vᵧ = 0
-5. Time up = time down (if same height)
-
-**Example Strategy** (From Class 05 & HW2):
-*√Ball kicked at 30° with speed 25 m/s√*
-
-Write this:
+**What to write for credit:**
 ```
 Given: v₀ = 25 m/s, θ = 30°
-v₀ₓ = 25 cos(30°) = 21.7 m/s  
-v₀ᵧ = 25 sin(30°) = 12.5 m/s
-aₓ = 0, aᵧ = -9.8 m/s²
+
+v₀ₓ = v₀ cos(θ) = 25 cos(30°) = 21.7 m/s
+v₀ᵧ = v₀ sin(θ) = 25 sin(30°) = 12.5 m/s
 ```
 
-**Easy Points**:
-- Draw the parabolic path
-- Write component equations even if you don✅t solve
-- State √horizontal velocity constant√
-
-**Common Question Types**:
-- Maximum height → use vᵧ² = v₀ᵧ² - 2g(y - y₀) with vᵧ = 0
-- Range → find time in air first, then x = v₀ₓt  
-- Time in air → use y equation with final y = 0
+**Partial credit:** Drawing diagram + writing cos/sin formulas = 2-3 pts
 
 ---
 
-### **Topic 3: Vectors**
+**(b) Maximum height [8 pts]**
 
-**Essential Skills**:
-- Breaking vectors into x and y components
-- Adding vectors component-wise
-
-**Formulas**:
+**What to write for credit:**
 ```
-Fₓ = F cos(θ)
-Fᵧ = F sin(θ)
+At max height: vᵧ = 0
 
-Magnitude: F = √(Fₓ² + Fᵧ²)
-Angle: θ = tan⁻¹(Fᵧ/Fₓ)
+Using: vᵧ² = v₀ᵧ² - 2g(y - y₀)
+0 = (12.5)² - 2(9.8)(y - 0)
+y = 12.5²/(2×9.8) = 156.25/19.6 = 7.97 m
 ```
 
-**Angle Conventions** (CRITICAL for signs):
-- Angle from +x axis (standard)
-- Or angle from horizontal/vertical (be careful with signs!)
-
-**Minimum to Write Down**:
-1. Draw all vectors on a coordinate system
-2. Break ea_rh vector into components
-3. Add x-components together, y-components together
-4. Find magnitude of resultant
-
-**Example** (From Class 04 & 07):
-```
-F₁ = 50 N at 30° 
-F₁ₓ = 50 cos(30°)
-F₁ᵧ = 50 sin(30°)
-(even if you don✅t calculate, showing this gets points!)
-```
+**Key for partial credit:**
+- State vᵧ = 0 at peak (1 pt)
+- Write correct equation (2 pts)
+- Plug in numbers with units (2 pts)
 
 ---
 
-### **Topic 4: Forces & Newton✅s Laws**
+**(c) Time in air [7 pts]**
 
-**THE Three Laws** (Write these if relevant):
-1. Object at rest stays at rest (F = 0 → a = 0)
-2. **F = ma** (most important!)
-3. Action-rea_rtion pairs are equal and opposite
-
-**Free Body Diagrams** (ALWAYS DO THIS):
-1. Draw object as a dot or box
-2. Draw ALL forces as arrows pointing away from object
-   - **Weight (mg)**: Always straight down
-   - **Normal (N)**: Perpendicular to surfa_re
-   - **Tension (T)**: Along rope/string
-   - **Friction (f)**: Opposes motion
-   - **Applied Force (F)**: In direction of push/pull
-
-**Minimum to Write Down**:
-1. Draw free body diagram
-2. Write ΣF = ma for x and y directions separately
-3. Set up equations even if you can✅t solve
-
-**Example Strategy** (From Class 09, 10, HW3, HW4):
-*√Box on incline√*
-
-Write:
+**What to write for credit:**
 ```
+Using: y = y₀ + v₀ᵧt - ½gt²
+When lands: y = 0
+
+0 = 0 + 12.5t - ½(9.8)t²
+4.9t² - 12.5t = 0
+t(4.9t - 12.5) = 0
+t = 0 or t = 12.5/4.9 = 2.55 s
+
+Answer: t = 2.55 s
+```
+
+**Partial credit:** Setup equation with y = 0 (3 pts) | Show algebra (2 pts)
+
+---
+
+**(d) Horizontal range [5 pts]**
+
+**What to write for credit:**
+```
+x = v₀ₓt = 21.7 × 2.55 = 55.3 m
+```
+
+**Partial credit:** Write x = v₀ₓt formula (2 pts)
+
+---
+
+## Question 2: Forces on Incline [25 pts]
+
+A 2.7 kg box sits on a 34° incline. The coefficient of kinetic friction is μₖ = 0.15.
+
+**(a)** Draw free body diagrams for the box. **[6 pts]**
+
+**(b)** If the box slides down, find its acceleration. **[10 pts]**
+
+**(c)** What minimum μₛ would keep the box from sliding? **[9 pts]**
+
+### Solution:
+
+**(a) Free body diagram [6 pts]**
+
+**What to draw for full credit:**
+```
+[Draw box on incline]
 Forces:
-- Weight: mg downward
-- Normal: N perpendicular to incline  
-- Friction: f down the incline
+- Weight mg pointing straight down
+- Normal N perpendicular to surface
+- Friction f parallel to surface (up the incline)
 
-Break weight into components:
-- Parallel: mg sin(θ)
-- Perpendicular: mg cos(θ)
-
-Equations:
-ΣFₓ = mg sin(θ) - f = ma
-ΣFᵧ = N - mg cos(θ) = 0
+Break mg into components:
+- mg sin(θ) parallel to incline (down)
+- mg cos(θ) perpendicular to incline
 ```
 
-**Common Scenarios**:
-- **Two masses connected**: Draw FBD for EACH mass separately
-- **Atwood ma_rhine**: T - m₁g = m₁a, T - m₂g = -m₂a
-- **On incline**: Always break weight into parallel and perpendicular
+**Partial credit:** Even rough diagram with labeled forces = 4 pts
 
 ---
 
-### **Topic 5: Friction**
+**(b) Acceleration [10 pts]**
 
-**Two Types**:
-1. **Static friction** (not moving): fₛ ≤ μₛN
-2. **Kinetic friction** (sliding): fₖ = μₖN
-
-**Key Fa_rt**: fₛ,max = μₛN (maximum before sliding starts)
-
-**Minimum to Write Down**:
-1. Draw free body diagram showing friction force
-2. Write f = μN (or fₖ = μₖN)
-3. Find N from perpendicular forces
-4. State direction of friction (opposes motion)
-
-**Example** (From Class 11, HW4):
+**What to write for credit:**
 ```
-On horizontal surfa_re:
-N = mg (vertical equilibrium)
-fₖ = μₖmg
+Perpendicular: N - mg cos(θ) = 0
+                N = mg cos(θ) = 2.7(9.8)cos(34°) = 21.9 N
 
-On incline:
-N = mg cos(θ)
-fₖ = μₖmg cos(θ)
+Parallel: mg sin(θ) - fₖ = ma
+          mg sin(θ) - μₖN = ma
+          2.7(9.8)sin(34°) - 0.15(21.9) = 2.7a
+          14.8 - 3.29 = 2.7a
+          a = 11.5/2.7 = 4.26 m/s²
 ```
 
-**Easy Points**:
-- Always state √friction opposes motion√
-- N is NOT always equal to mg!
-- Check if static or kinetic
+**Key for partial credit:**
+- Write N = mg cos(θ) (2 pts)
+- Write parallel equation (3 pts)
+- Substitute fₖ = μₖN (2 pts)
 
 ---
 
-### **Topic 6: Circular Motion**
+**(c) Minimum μₛ [9 pts]**
 
-**Core Equation**:
+**What to write for credit:**
 ```
-Centripetal a_rceleration: aᵣ = v²/R
-Centripetal force: Fᵣ = mv²/R (directed toward center)
-```
+For no sliding: a = 0
+mg sin(θ) - fₛ = 0
+mg sin(θ) = μₛN = μₛmg cos(θ)
 
-**Key Points**:
-- Acceleration ALWAYS points toward center
-- Velocity is tangent to circle
-- Force causing circular motion points inward
-
-**Minimum to Write Down**:
-1. Draw circular path and indicate center
-2. Draw force diagram (especially tension, normal, weight)
-3. Write Fnet = mv²/R toward center
-4. Apply Newton✅s 2nd law in radial direction
-
-**Example Scenarios** (From Class 12, HW5):
-
-**Vertical Circle** (like loop-de-loop):
-- At top: T + mg = mv²/R (both point down to center)
-- At bottom: T - mg = mv²/R (T up, mg down)
-- Minimum speed at top: when T = 0 → mg = mv²/R → v = √(gR)
-
-**Horizontal Circle** (like car on curve):
-- Friction provides centripetal force: f = mv²/R
-- Maximum speed: μₛN = mv²/R
-
-**Conical Pendulum**:
-```
-Vertical: T cos(θ) = mg
-Horizontal: T sin(θ) = mv²/r
+μₛ = sin(θ)/cos(θ) = tan(θ)
+μₛ = tan(34°) = 0.67
 ```
 
-**Easy Points**:
-- Label center of circle
-- Draw radius
-- State √force toward center√
+**Partial credit:** State a = 0 (2 pts) | Setup equation (3 pts)
 
 ---
 
-### **Topic 7: Work & Energy**
+## Question 3: Energy Conservation [25 pts]
 
-**Essential Equations**:
+A 100 kg roller coaster starts from rest at height h₁ = 45 m, drops to h₂ = 0 m, then climbs to h₃ = 25 m where it stops. Friction acts between h₂ and h₃ (distance = 25 m).
+
+**(a)** Find gravitational PE at h₁. **[5 pts]**
+
+**(b)** Find speed at h₂. **[8 pts]**
+
+**(c)** Find energy lost to friction. **[12 pts]**
+
+### Solution:
+
+**(a) PE at h₁ [5 pts]**
+
+**What to write for credit:**
 ```
-Work: W = Fd cos(θ)
-Kinetic Energy: KE = ½mv²
-Gravitational PE: PEg = mgy
-Elastic PE: PEspring = ½kx²
-
-Work-Energy Theorem: Wnet = ΔKE = KEf - KEi
-```
-
-**Conservation of Energy** (USE THIS A LOT):
-```
-KEi + PEi = KEf + PEf (no friction)
-KEi + PEi = KEf + PEf + Wlost (with friction)
-```
-
-**Minimum to Write Down**:
-1. Identify initial and final states
-2. List all energies at ea_rh state
-3. Write conservation equation
-4. If friction: Wlost = f × d
-
-**Example Strategy** (From Class 17, 18, 19, HW6, HW7):
-*√Roller coaster from height h₁ to h₂√*
-
-Write:
-```
-Initial (at h₁): KEi + PEi = 0 + mgh₁
-Final (at h₂): KEf + PEf = ½mv² + mgh₂
-
-Conservation:
-mgh₁ = ½mv² + mgh₂
-
-Solve for v:
-v = √(2g(h₁ - h₂))
+PE = mgh₁ = 100 × 9.8 × 45 = 44,100 J
 ```
 
-**Common Question Types**:
-- **Stopping distance**: Use KEi = f × d = μₖmg × d
-- **Springs**: ½mv² = ½kx² (energy stored in spring)
-- **Work done**: W = Fd (if force parallel to motion)
-
-**Easy Points**:
-- Always write energy conservation equation
-- State if friction is present
-- Include all forms of energy
+**Partial credit:** Write PE = mgh (2 pts)
 
 ---
 
-### **Topic 8: Power**
+**(b) Speed at h₂ [8 pts]**
 
-**Simple Equation**:
+**What to write for credit:**
 ```
-Power = Work/Time = W/t
-or
-Power = Force × velocity = Fv
+Energy conservation (no friction A→B):
+PE₁ + KE₁ = PE₂ + KE₂
+mgh₁ + 0 = 0 + ½mv²
+
+v = √(2gh₁) = √(2 × 9.8 × 45)
+v = √882 = 29.7 m/s
 ```
 
-**Units**: Watts (W) = Joules/second
-
-**Minimum to Write**: 
-- P = W/t or P = Fv
-- Calculate work first if needed
-- Include units!
+**Key for partial credit:**
+- Write conservation equation (3 pts)
+- Cancel mass (1 pt)
+- Setup for v (2 pts)
 
 ---
 
-### **Topic 9: Momentum & Collisions**
+**(c) Energy lost [12 pts]**
 
-**Core Equations**:
+**What to write for credit:**
 ```
-Momentum: p = mv (vector!)
-Impulse: J = FΔt = Δp
+Energy at B: KE₂ = ½mv² = ½(100)(29.7)² = 44,100 J
+Energy at C: PE₃ = mgh₃ = 100(9.8)(25) = 24,500 J
 
-Conservation of Momentum:
-p_initial = p_final
-m₁v₁i + m₂v₂i = m₁v₁f + m₂v₂f
-```
-
-**Two Types of Collisions**:
-1. **Elastic**: Both momentum AND kinetic energy conserved
-2. **Inelastic**: Only momentum conserved (objects stick together)
-
-**Minimum to Write Down**:
-1. Draw before and after diagrams
-2. Write momentum conservation equation
-3. State if elastic or inelastic
-4. Choose positive direction carefully
-
-**Example Strategy** (From Class 20, 21, HW7, HW8):
-*√Two objects collide and stick together√*
-
-Write:
-```
-Before: p₁ = m₁v₁, p₂ = m₂v₂
-After: p_final = (m₁ + m₂)v_f
-
-Conservation:
-m₁v₁ + m₂v₂ = (m₁ + m₂)v_f
-
-Solve for v_f:
-v_f = (m₁v₁ + m₂v₂)/(m₁ + m₂)
+Energy lost = KE₂ - PE₃ 
+            = 44,100 - 24,500 = 19,600 J
 ```
 
-**Common Scenarios**:
-- **Explosion**: Object at rest splits → p₁ + p₂ = 0
-- **Catching/throwing**: Person catches ball → inelastic
-- **Recoil**: Gun firing bullet → momentum conserved
-
-**Easy Points**:
-- Draw before/after arrows showing velocities
-- State √momentum conserved if no external forces√
-- Include direction signs (+ and -)
+**Partial credit:** State Elost = Einitial - Efinal (4 pts)
 
 ---
 
-### **Topic 10: Statics & Torque**
+## Question 4: Circular Motion [25 pts]
 
-**Key Concepts**:
-- **Static Equilibrium**: Both ΣF = 0 AND Στ = 0
-- **Torque**: τ = r × F = rF sin(θ)
-  - r = distance from pivot
-  - F = force
-  - θ = angle between r and F
+A 1000 kg car rounds a flat curve of radius 50 m at 15 m/s.
 
-**Sign Convention**:
-- Counterclockwise torque: POSITIVE
-- Clockwise torque: NEGATIVE
+**(a)** What centripetal force is needed? **[8 pts]**
 
-**Minimum to Write Down**:
-1. Draw diagram and mark pivot point
-2. Show all forces and distances from pivot
-3. Write ΣF = 0 (forces balance)
-4. Write Στ = 0 (torques balance)
-5. Choose sign convention and stick to it!
+**(b)** If μₛ = 0.60, will the car make the turn? **[10 pts]**
 
-**Example Strategy** (From Class 22, HW8, HW9):
-*√Beam balanced on fulcrum with weights√*
+**(c)** What's the maximum safe speed? **[7 pts]**
 
-Write:
+### Solution:
+
+**(a) Centripetal force [8 pts]**
+
+**What to write for credit:**
 ```
-Let pivot be at fulcrum.
-Forces: W₁ = m₁g down at distance r₁
-        W₂ = m₂g down at distance r₂
-
-Torque balance:
-τ₁ - τ₂ = 0
-r₁W₁ - r₂W₂ = 0
-r₁m₁g = r₂m₂g
+Fc = mv²/R = 1000(15)²/50
+   = 1000(225)/50 = 4500 N
 ```
 
-**Common Question Types**:
-- **Ladder against wall**: Three forces (weight, normal from ground, normal from wall)
-- **Beam with loads**: Multiple torques from different weights
-- **Finding unknown force**: Use both ΣF = 0 and Στ = 0
-
-**Easy Points**:
-- Label pivot clearly
-- Draw perpendicular distances to forces
-- State sign convention for torque
+**Partial credit:** Write Fc = mv²/R (3 pts)
 
 ---
 
-## 🎯 QUESTION-BY-QUESTION STRATEGY
+**(b) Will it make turn? [10 pts]**
 
-Based on Tests 1-3 format, expect questions like:
-
-### **Type 1: Kinematics Problem**
-*What to Write*:
-1. Draw motion diagram
-2. List all given values
-3. Write relevant kinematic equations
-4. Solve step by step
-5. **Check sign of a_rceleration/velocity**
-6. Include units!
-
-### **Type 2: Forces/Free Body Diagram**
-*What to Write*:
-1. Draw free body diagram (BIG, CLEAR)
-2. Label all forces with arrows
-3. Write ΣFₓ = ma and ΣFᵧ = 0 (or = ma)
-4. Solve for unknowns
-5. Check reasonableness (N should be positive!)
-
-### **Type 3: Projectile Motion**
-*What to Write*:
-1. Draw trajectory showing launch angle
-2. Break initial velocity into components
-3. Write x-equation and y-equation separately
-4. Solve for what✅s asked
-5. Remember: vᵧ = 0 at peak!
-
-### **Type 4: Energy Problem**
-*What to Write*:
-1. Identify initial and final states
-2. Write energy at ea_rh state (KE, PEg, PEspring)
-3. Write conservation: Ei = Ef (+ work lost to friction if present)
-4. Solve algebraically first, then plug in numbers
-5. Check if answer makes physical sense
-
-### **Type 5: Circular Motion**
-*What to Write*:
-1. Draw circle and indicate center
-2. Draw free body diagram at specified position
-3. Write Fnet = mv²/R toward center
-4. Apply Newton✅s 2nd law
-5. Solve for unknown
-
-### **Type 6: Momentum/Collision**
-*What to Write*:
-1. Draw before and after
-2. Write momentum conservation: pi = pf
-3. State if elastic or inelastic
-4. Set up equation with signs
-5. Solve for unknown velocity
-
----
-
-## ⚡ QUICK REFERENCE FORMULAS
-
-**Memorize These:**
-
+**What to write for credit:**
 ```
-KINEMATICS:
-v = v₀ + at
-x = x₀ + v₀t + ½at²
-v² = v₀² + 2a(x - x₀)
-g = 9.8 m/s² (downward)
+Maximum friction: fₘₐₓ = μₛN = μₛmg
+                       = 0.60(1000)(9.8) = 5880 N
 
-PROJECTILE:
-vₓ = v₀ cos(θ)
-vᵧ = v₀ sin(θ)
-
-FORCES:
-F = ma
-f = μN
-F_centripetal = mv²/R
-
-ENERGY:
-KE = ½mv²
-PEg = mgy
-PEspring = ½kx²
-W = Fd cos(θ)
-
-MOMENTUM:
-p = mv
-Impulse = Δp = FΔt
-
-STATICS:
-Στ = 0
-τ = rF sin(θ)
+Since fₘₐₓ (5880 N) > Fc (4500 N):
+YES, car will make the turn
 ```
 
----
-
-## 🚨 COMMON MISTAKES TO AVOID
-
-1. **Forgetting to draw diagrams** - Do this FIRST
-2. **Missing units** - Write units on EVERY number
-3. **Wrong signs for vectors** - Define positive direction clearly
-4. **Not showing work** - Even wrong math with right setup gets partial credit
-5. **Leaving answers blank** - ALWAYS write something!
-6. **Mixing up sin and cos** - cos goes with adja_rent, sin with opposite
-7. **Forgetting gravity is negative** - a = -9.8 m/s²
-8. **Not stating assumptions** - √frictionless√, √start from rest√, etc.
+**Key for partial credit:**
+- State friction provides Fc (2 pts)
+- Calculate fₘₐₓ = μₛmg (3 pts)
+- Compare values (2 pts)
 
 ---
 
-## 📖 PRACTICE PROBLEMS TO REVIEW
+**(c) Maximum speed [7 pts]**
 
-**High-Yield Problems** (Most likely to appear):
-
-1. **From Class 27 (Final Review)**:
-   - Police investigation with skid marks (friction + kinematics)
-   - Projectile motion at angle
-
-2. **From Class 07 (Test 1 Review)**:
-   - Vector addition with multiple forces
-   - Soccer ball kinematics
-   - Projectile from elevated position
-
-3. **From Class 15 & 24 (Test 2 & 3 Reviews)**:
-   - Incline plane problems
-   - Free body diagrams
-   - Connected masses
-
-4. **Energy Problems**:
-   - HW6: Car hitting spring
-   - HW7: Roller coaster
-   - Class 19: Block hitting spring
-
-5. **Momentum Problems**:
-   - HW7 & HW8: Collisions
-   - Class 20: Hockey goalie catching puck
-
-6. **Circular Motion**:
-   - HW5: Conical pendulum
-   - Class 12: Car rounding curve
-
----
-
-## ⏰ NIGHT-BEFORE CHECKLIST
-
-**Do This Tonight:**
-
-✅ Review ALL formula sheets (write them out)  
-✅ Pra_rtice drawing free body diagrams (5-10 examples)  
-✅ Redo Class 27 Finals Review problems  
-✅ Look at your Tests 1-3 - see what you lost points on  
-✅ Memorize key values: g = 9.8 m/s², sign conventions  
-✅ Pra_rtice breaking vectors into components  
-✅ Review energy conservation setup  
-✅ Get good sleep (seriously - you need to think clearly!)
-
-**Bring Tomorrow:**
-- Calculator with fresh batteries
-- Multiple pencils and pens
-- Student ID
-- Water bottle
-- Confidence (you✅ve got this!)
-
----
-
-## 💡 DURING THE EXAM
-
-**Time Management** (2 hours for 6-7 questions):
-- Spend ~15-20 minutes per question
-- Do easy parts first
-- Leave hardest for last
-- Save 15 minutes to review
-
-**For EVERY Question**:
-1. Read carefully - underline what✅s given
-2. Draw diagram FIRST
-3. Write down relevant formulas
-4. Set up equations before calculating
-5. Show ALL work
-6. Circle final answer
-7. Check units
-
-**If You✅re Stuck**:
-- Write down what you know
-- Draw a diagram anyway
-- Write relevant formulas even if unsure
-- Make reasonable assumptions and state them
-- Move on and come ba_rk if time allows
-
-**Remember**: 
-- Partial credit is your friend
-- Something is better than nothing
-- Units matter!
-- Show your work = show your thinking
-
----
-
-## 🎓 FINAL MOTIVATION
-
-You need 28 points out of 100 to pass (60%). That✅s less than 30%!
-
-**This means:**
-- You can skip entire parts of questions and still pass
-- A few solid attempts at problems will get you there
-- Partial credit adds up quickly
-- Even if you only half-understand, write what you know!
-
-**Your Goal**: Write SOMETHING for EVERY question. Even if it✅s just:
-- A diagram
-- The relevant formula
-- The given values with units
-- A partial setup
-
-This alone could get you 20-30 points a_rross 6-7 questions!
-
----
-
-## 📞 Last Resort Strategies
-
-**If you completely blank on a topic:**
-
-1. **Always draw something**: Diagram, free body diagram, before/after sketch
-2. **Write the most basic formula**: F = ma, KE = ½mv², p = mv
-3. **List what✅s given**: m = ___, v = ___, d = ___
-4. **State what you✅re looking for**: √Need to find: velocity v = ?√
-5. **Write any equation that has those variables**
-
-Example if you forget everything about energy:
+**What to write for credit:**
 ```
-√Using conservation of energy:
-Initial energy = Final energy
-KEᵢ + PEᵢ = KEf + PEf
-½mv₁² + mgh₁ = ½mv₂² + mgh₂√
+At max speed: fₘₐₓ = mv²/R
+μₛmg = mv²/R
+v = √(μₛgR) = √(0.60 × 9.8 × 50)
+v = √294 = 17.1 m/s
 ```
-Just writing this gives you points even if you don✅t solve!
+
+**Partial credit:** Setup equation μₛmg = mv²/R (4 pts)
 
 ---
 
-## 🎯 YOU✅VE GOT THIS!
+## Question 5: Momentum & Collision [25 pts]
 
-Remember:
-- You only need 28.1% to pass
-- Partial credit is generous in physics
-- Showing work > getting right answer
-- 60% = passing = success!
+A 0.15 kg hockey puck moving at 35 m/s is caught by a 70 kg goalie at rest.
 
-**Good luck tomorrow! You✅re going to do great! 🚀**
+**(a)** Find the goalie's recoil velocity. **[12 pts]**
+
+**(b)** How much KE is lost? **[13 pts]**
+
+### Solution:
+
+**(a) Recoil velocity [12 pts]**
+
+**What to write for credit:**
+```
+Conservation of momentum:
+p_before = p_after
+m_puck × v_puck + m_goalie × 0 = (m_puck + m_goalie) × v_final
+
+0.15(35) + 0 = (0.15 + 70)v'
+5.25 = 70.15v'
+v' = 5.25/70.15 = 0.075 m/s
+```
+
+**Key for partial credit:**
+- Draw before/after diagram (2 pts)
+- State momentum conservation (3 pts)
+- Write equation (3 pts)
+- State "inelastic collision" (1 pt)
 
 ---
 
-*Sources: Based on PHYS 140 Section 9 course materials including Tests 1-3, Homework 1-9 Solutions, Class Worksheets 2-27, and Syllabus for PHYS 140 Section 9*
+**(b) Energy lost [13 pts]**
+
+**What to write for credit:**
+```
+KE_before = ½m_puck v² = ½(0.15)(35)² = 91.875 J
+
+KE_after = ½(m_puck + m_goalie)v'²
+         = ½(70.15)(0.075)² = 0.197 J
+
+ΔKE = 91.875 - 0.197 = 91.68 J lost
+```
+
+**Partial credit:** Calculate both KE values (5 pts each)
+
+---
+
+## Question 6: Work & Friction [25 pts]
+
+A car's engine shuts off at 15 m/s. It slows to 10 m/s after traveling distance d. The friction coefficient is μₖ = 0.3.
+
+**(a)** Find the deceleration due to friction. **[8 pts]**
+
+**(b)** Find the stopping distance d. **[10 pts]**
+
+**(c)** Calculate work done by friction. **[7 pts]**
+
+### Solution:
+
+**(a) Deceleration [8 pts]**
+
+**What to write for credit:**
+```
+Friction force: f = μₖmg
+Newton's 2nd: f = ma
+μₖmg = ma
+a = μₖg = 0.3(9.8) = 2.94 m/s²
+
+(negative since it opposes motion)
+a = -2.94 m/s²
+```
+
+**Partial credit:** Write f = μₖmg (2 pts) | State a = μₖg (3 pts)
+
+---
+
+**(b) Distance d [10 pts]**
+
+**What to write for credit:**
+```
+Using: v² = v₀² + 2ad
+(10)² = (15)² + 2(-2.94)d
+100 = 225 - 5.88d
+5.88d = 125
+d = 21.3 m
+```
+
+**Partial credit:** Write correct kinematic equation (4 pts)
+
+---
+
+**(c) Work by friction [7 pts]**
+
+**What to write for credit:**
+```
+W = -f × d = -μₖmg × d
+(negative because friction opposes motion)
+
+Or using energy:
+W = ΔKE = ½m(v² - v₀²) = ½m(100 - 225)
+W = -62.5m (depends on mass, which wasn't given)
+```
+
+**Partial credit:** Write W = fd or W = ΔKE (3 pts)
+
+---
+
+## Question 7: Statics & Torque [25 pts]
+
+A uniform 50 kg beam (length 4 m) is supported at its left end. A 30 kg box sits 3 m from the left end.
+
+**(a)** Draw diagram showing all forces. **[5 pts]**
+
+**(b)** Find the support force at left end. **[12 pts]**
+
+**(c)** Where should a 20 kg box be placed to balance? **[8 pts]**
+
+### Solution:
+
+**(a) Diagram [5 pts]**
+
+**What to draw for credit:**
+```
+[Draw horizontal beam]
+- Support force F_support at left (up)
+- Weight of beam: 50g at center (2 m from left)
+- Weight of box: 30g at 3 m from left
+```
+
+**Partial credit:** Label pivot and forces (3 pts)
+
+---
+
+**(b) Support force [12 pts]**
+
+**What to write for credit:**
+```
+Torque about left end (pivot):
+Counter-clockwise = Clockwise
+
+0 = (50g)(2) + (30g)(3)
+(Note: support force creates no torque at pivot)
+
+Wait - this doesn't balance! Need reaction at right end too.
+Actually, this is a simple support problem:
+
+ΣF_y = 0:
+F_support - 50g - 30g = 0
+F_support = 80g = 80(9.8) = 784 N
+```
+
+**Partial credit:** Write ΣF = 0 (4 pts) | Setup equation (4 pts)
+
+---
+
+**(c) Balancing position [8 pts]**
+
+**What to write for credit:**
+```
+Need more info about pivot location or additional support.
+If balanced on pivot at some point x:
+Torques must balance about pivot point.
+
+For seesaw at center (2 m):
+Left side: 50g(0) + weight at distance d_left
+Right side: 30g(1)
+
+Show setup even if can't complete!
+```
+
+**Partial credit:** State Στ = 0 (3 pts) | Attempt setup (3 pts)
+
+---
+
+## Key Takeaways for Test Day
+
+**Always write:**
+1. **Diagram** (even rough) - shows you understand
+2. **Given values** with units
+3. **Relevant equation** - gets partial credit
+4. **Setup before numbers** - shows process
+5. **Units on answer** - easy points
+
+**Partial credit gold:**
+- Free body diagrams
+- Conservation statements
+- Identifying forces/components
+- Writing equations (even if wrong numbers)
+- Stating key facts (v=0 at peak, momentum conserved, etc.)
+
+**Time management:**
+- 15-20 min per question
+- Do easiest parts first
+- Circle back to hard parts
+- Check units on everything
+
+---
+
+Good luck! 🎯
